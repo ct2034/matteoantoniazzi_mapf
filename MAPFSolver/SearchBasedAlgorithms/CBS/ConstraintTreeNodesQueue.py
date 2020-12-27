@@ -1,4 +1,4 @@
-from MAPFSolver.SearchBasedAlgorithms.CBS.ConstraintTreeNode import ConstraintTreeNode
+from ...SearchBasedAlgorithms.CBS.ConstraintTreeNode import ConstraintTreeNode
 
 
 class ConstraintTreeNodesQueue:

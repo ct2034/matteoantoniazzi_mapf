@@ -1,4 +1,4 @@
-from MAPFSolver.Utilities.SingleAgentState import SingleAgentState
+from ...MAPFSolver.Utilities.SingleAgentState import SingleAgentState
 
 
 class StatesQueue:

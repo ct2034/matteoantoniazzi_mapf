@@ -1,7 +1,7 @@
-from MAPFSolver.Utilities.paths_processing import calculate_soc, calculate_makespan
-from MAPFSolver.Utilities.SingleAgentState import SingleAgentState
-from MAPFSolver.Utilities.AbstractSolver import AbstractSolver
-from MAPFSolver.Utilities.StatesQueue import StatesQueue
+from ....MAPFSolver.Utilities.paths_processing import calculate_soc, calculate_makespan
+from ....MAPFSolver.Utilities.SingleAgentState import SingleAgentState
+from ....MAPFSolver.Utilities.AbstractSolver import AbstractSolver
+from ....MAPFSolver.Utilities.StatesQueue import StatesQueue
 from .MultiAgentState import MultiAgentState
 from threading import Thread, Event
 import time

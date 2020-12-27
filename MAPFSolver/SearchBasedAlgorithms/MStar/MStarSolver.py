@@ -1,9 +1,9 @@
-from MAPFSolver.SearchBasedAlgorithms.MStar.MStarStatesQueue import MStarStatesQueue
-from MAPFSolver.Utilities.AbstractSolver import AbstractSolver
-from MAPFSolver.Utilities.SingleAgentState import SingleAgentState
-from MAPFSolver.Utilities.StatesQueue import StatesQueue
-from MAPFSolver.Utilities.paths_processing import calculate_soc, calculate_makespan
-from MAPFSolver.SearchBasedAlgorithms.MStar.MStarState import MStarState
+from ...SearchBasedAlgorithms.MStar.MStarStatesQueue import MStarStatesQueue
+from ...Utilities.AbstractSolver import AbstractSolver
+from ...Utilities.SingleAgentState import SingleAgentState
+from ...Utilities.StatesQueue import StatesQueue
+from ...Utilities.paths_processing import calculate_soc, calculate_makespan
+from ...SearchBasedAlgorithms.MStar.MStarState import MStarState
 from threading import Thread, Event
 import time
 

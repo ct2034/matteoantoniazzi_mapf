@@ -1,4 +1,4 @@
-from MAPFSolver.Utilities.StatesQueue import StatesQueue
+from ..Utilities.StatesQueue import StatesQueue
 from .Heuristic import Heuristic
 
 

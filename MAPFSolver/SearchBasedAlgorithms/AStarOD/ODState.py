@@ -1,4 +1,4 @@
-from MAPFSolver.SearchBasedAlgorithms.AStar.MultiAgentState import MultiAgentState
+from ..AStar.MultiAgentState import MultiAgentState
 
 
 class ODState(MultiAgentState):

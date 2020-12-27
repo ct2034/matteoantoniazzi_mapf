@@ -1,8 +1,8 @@
-from MAPFSolver.SearchBasedAlgorithms.AStarOD.ODState import ODState
-from MAPFSolver.Utilities.paths_processing import calculate_soc, calculate_makespan
-from MAPFSolver.Utilities.SingleAgentState import SingleAgentState
-from MAPFSolver.Utilities.AbstractSolver import AbstractSolver
-from MAPFSolver.Utilities.StatesQueue import StatesQueue
+from .ODState import ODState
+from ...Utilities.paths_processing import calculate_soc, calculate_makespan
+from ...Utilities.SingleAgentState import SingleAgentState
+from ...Utilities.AbstractSolver import AbstractSolver
+from ...Utilities.StatesQueue import StatesQueue
 from threading import Thread, Event
 import time
 

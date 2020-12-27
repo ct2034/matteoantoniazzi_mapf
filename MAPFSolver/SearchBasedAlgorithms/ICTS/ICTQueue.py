@@ -1,4 +1,4 @@
-from MAPFSolver.SearchBasedAlgorithms.ICTS.ICTNode import ICTNode
+from ...SearchBasedAlgorithms.ICTS.ICTNode import ICTNode
 
 
 class ICTQueue:

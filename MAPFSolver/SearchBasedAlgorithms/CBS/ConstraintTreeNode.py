@@ -1,5 +1,5 @@
-from MAPFSolver.Utilities.AStar import AStar
-from MAPFSolver.Utilities.paths_processing import calculate_soc, calculate_makespan, check_conflicts_with_type
+from ...Utilities.AStar import AStar
+from ...Utilities.paths_processing import calculate_soc, calculate_makespan, check_conflicts_with_type
 
 
 class ConstraintTreeNode:

@@ -1,5 +1,5 @@
-from MAPFSolver.SearchBasedAlgorithms.ICTS.MDDNode import MDDNode
-from MAPFSolver.SearchBasedAlgorithms.ICTS.MDDQueue import MDDQueue
+from ...SearchBasedAlgorithms.ICTS.MDDNode import MDDNode
+from ...SearchBasedAlgorithms.ICTS.MDDQueue import MDDQueue
 
 
 class MDD:

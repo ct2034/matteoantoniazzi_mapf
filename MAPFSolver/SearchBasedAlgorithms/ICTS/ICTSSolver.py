@@ -1,7 +1,7 @@
-from MAPFSolver.Utilities.AbstractSolver import AbstractSolver
-from MAPFSolver.Utilities.paths_processing import calculate_soc, calculate_makespan
-from MAPFSolver.SearchBasedAlgorithms.ICTS.ICTNode import ICTNode
-from MAPFSolver.SearchBasedAlgorithms.ICTS.ICTQueue import ICTQueue
+from ...Utilities.AbstractSolver import AbstractSolver
+from ...Utilities.paths_processing import calculate_soc, calculate_makespan
+from ...SearchBasedAlgorithms.ICTS.ICTNode import ICTNode
+from ...SearchBasedAlgorithms.ICTS.ICTQueue import ICTQueue
 from threading import Thread, Event
 import time
 

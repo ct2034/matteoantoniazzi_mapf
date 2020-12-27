@@ -1,5 +1,5 @@
-from MAPFSolver.Utilities.State import State
-from MAPFSolver.Utilities.SingleAgentState import SingleAgentState
+from ...Utilities.State import State
+from ...Utilities.SingleAgentState import SingleAgentState
 import itertools
 
 

@@ -1,4 +1,4 @@
-from MAPFSolver.SearchBasedAlgorithms.ICTS.MDDNode import MDDNode
+from ...SearchBasedAlgorithms.ICTS.MDDNode import MDDNode
 import itertools
 
 

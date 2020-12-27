@@ -1,9 +1,9 @@
 import copy
 
-from MAPFSolver.Utilities.AbstractSolver import AbstractSolver
-from MAPFSolver.Utilities.ProblemInstance import ProblemInstance
-from MAPFSolver.Utilities.paths_processing import *
-from MAPFSolver.Utilities.useful_functions import get_solver
+from ..Utilities.AbstractSolver import AbstractSolver
+from ..Utilities.ProblemInstance import ProblemInstance
+from ..Utilities.paths_processing import *
+from ..Utilities.useful_functions import get_solver
 from threading import Thread, Event
 import time
 
@@ -20,7 +20,6 @@ class IDFramework(AbstractSolver):
         will be the whole sum counting all the iterations.
         :param solver_str: string of the solver to put on top of ID.
         ["Cooperative A*", "A*", "A* with Operator Decomposition", "Increasing Cost Tree Search",
-        "Conflict Based Search", "M*"]
         :param solver_settings: settings of the solver.
         """
         super().__init__(solver_settings)

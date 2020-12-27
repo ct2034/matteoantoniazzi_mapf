@@ -1,7 +1,7 @@
-from MAPFSolver.Utilities.AbstractSolver import AbstractSolver
-from MAPFSolver.SearchBasedAlgorithms.CBS.ConstraintTreeNode import ConstraintTreeNode
-from MAPFSolver.SearchBasedAlgorithms.CBS.ConstraintTreeNodesQueue import ConstraintTreeNodesQueue
-from MAPFSolver.Utilities.paths_processing import calculate_soc, calculate_makespan
+from ...Utilities.AbstractSolver import AbstractSolver
+from ...SearchBasedAlgorithms.CBS.ConstraintTreeNode import ConstraintTreeNode
+from ...SearchBasedAlgorithms.CBS.ConstraintTreeNodesQueue import ConstraintTreeNodesQueue
+from ...Utilities.paths_processing import calculate_soc, calculate_makespan
 from threading import Thread, Event
 
 import time

@@ -1,4 +1,4 @@
-from MAPFSolver.Heuristics.initialize_heuristic import initialize_heuristics
+from ..Heuristics.initialize_heuristic import initialize_heuristics
 
 
 class SolverSettings:

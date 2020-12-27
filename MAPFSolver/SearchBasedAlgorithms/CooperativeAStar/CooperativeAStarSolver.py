@@ -1,6 +1,6 @@
-from MAPFSolver.Utilities.paths_processing import calculate_soc, calculate_makespan
-from MAPFSolver.Utilities.AbstractSolver import AbstractSolver
-from MAPFSolver.Utilities.AStar import AStar
+from ...Utilities.paths_processing import calculate_soc, calculate_makespan
+from ...Utilities.AbstractSolver import AbstractSolver
+from ...Utilities.AStar import AStar
 from threading import Thread, Event
 import time
 

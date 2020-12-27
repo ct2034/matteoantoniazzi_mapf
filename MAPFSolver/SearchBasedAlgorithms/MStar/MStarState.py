@@ -1,4 +1,4 @@
-from MAPFSolver.SearchBasedAlgorithms.AStar.MultiAgentState import MultiAgentState
+from ...SearchBasedAlgorithms.AStar.MultiAgentState import MultiAgentState
 import itertools
 
 
